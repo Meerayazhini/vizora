@@ -1,0 +1,23 @@
+body{
+    margin:0;
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:#f4f4f4;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.vizora{
+    font-size:80px;
+    font-weight:900;
+    letter-spacing:5px;
+    
+    /* Gradient text */
+    background: linear-gradient(90deg, #ff4db8, #ff8c5a, #ffd54f);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    /* Brush style feel */
+    text-transform: uppercase;
+}
